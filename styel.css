@@ -1,0 +1,24 @@
+.center{
+
+        height: 900px;
+        background-color: aqua;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 10px;
+        /* align-content: center;
+        align-content: end;
+        align-content: start; */
+        justify-content: center;
+        justify-content: end;
+        justify-content: start;
+        justify-content: space-around;
+        justify-content: space-between;
+      
+        /* grid-template-rows: 100px 220px 100px; */
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(116, 12, 12);
+    border-radius: 10px;
+}
